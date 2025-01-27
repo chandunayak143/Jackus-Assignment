@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Mobile Style  Start*/
+@media screen and (max-width: 600px) {
+    .home-contaier {
+      background-color: lightblue;
+      width: auto;
+      height: 100vh;
+      padding: 20px;
+    }
+    .main-heading{
+        font-size: 18px;
+        color: rgb(60, 60, 141);
+        text-align: center;
+    }
+}
+/* Mobile Style  Start*/
+
+/* Laptop Style Start */
+@media screen and (min-width: 601px){
+    .home-container {
+      background-color: lightgreen;
+      width: 98vw;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .main-heading{
+      color: rgb(60, 60, 141);
+      font-size: 28px;
+      text-align: center;
+    }
+  }
+  
+/* Laptop Style Start */
